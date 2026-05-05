@@ -1,10 +1,15 @@
 public class AccountService {
-    public static Account createAccount(String name) {
+
+    public static Account createAccount() {
+
         Account acc = new Account(
-            Name = name,
+            Name     = 'Healthcare',
             Industry = 'Technology'
         );
+
         insert acc;
+
         return acc;
     }
+
 }
